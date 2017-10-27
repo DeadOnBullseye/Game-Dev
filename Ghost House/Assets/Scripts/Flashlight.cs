@@ -1,10 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class Flashlight : MonoBehaviour {
 
-	public bool ligthOn;
-	Light light;
+public bool lightOn;
+Light light;
 
 	// Use this for initialization
 	void Start () {
