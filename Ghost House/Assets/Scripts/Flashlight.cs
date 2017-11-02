@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 public class Flashlight : MonoBehaviour {
 
-public bool lightOn;
+public bool lightOn = true;
 Light light;
 
 	// Use this for initialization
