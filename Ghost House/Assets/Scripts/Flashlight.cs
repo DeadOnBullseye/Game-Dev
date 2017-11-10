@@ -26,4 +26,12 @@ Light light;
 			light.enabled = true;
 		}
 	}
+
+	public void setLightOn() {
+		lightOn = true;
+	}
+
+	public bool isLightOn() {
+		return lightOn;
+	}
 }

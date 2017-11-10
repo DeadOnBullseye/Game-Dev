@@ -2,8 +2,7 @@
 using System.Collections;
 
 public class PlayerMove : MonoBehaviour {
-	public float
-	 moveSpeed;
+	public float moveSpeed;
 	public float turnSpeed;
 	public float jumpHeight;
 
